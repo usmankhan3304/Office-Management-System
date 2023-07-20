@@ -79,3 +79,5 @@ def filter_emp(request):
      return render(request, 'filter_emp.html')  
     else:
         return hhtp("an Error occured")
+def show(reqeust):
+    pass
